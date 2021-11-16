@@ -3,8 +3,8 @@
     <default-config>
         <property name="user">root</property>
         <property name="password">liangzi.</property>
-        <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl">jdbc:mysql://localhost:3306/test</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/xiaomistore?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC&amp;rewriteBatchedStatements=true</property>
         <property name="checkoutTimeout">30000</property>
         <property name="idleConnectionTestPeriod">30</property>
         <property name="initialPoolSize">3</property>
@@ -15,13 +15,12 @@
 
 
     </default-config>
-    //如果找不到自定义的则会自动找默认的
-    //test
+
     <named-config name="sxt">
         <property name="user">root</property>
-        <property name="password">root</property>
-        <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl">jdbc:mysql://localhost:3306/xiaomistore</property>
+        <property name="password">liangzi.</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/xiaomistore?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC&amp;rewriteBatchedStatements=true</property>
         <property name="checkoutTimeout">30000</property>
         <property name="idleConnectionTestPeriod">30</property>
         <property name="initialPoolSize">3</property>
@@ -31,12 +30,11 @@
         <property name="maxStatements">200</property>
 
     </named-config>
-    //bookstore
     <named-config name="bookstore">
         <property name="user">root</property>
         <property name="password">liangzi.</property>
-        <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl">jdbc:mysql://localhost:3306/bookstore</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/bookstore?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC&amp;rewriteBatchedStatements=true</property>
         <property name="checkoutTimeout">30000</property>
         <property name="idleConnectionTestPeriod">30</property>
         <property name="initialPoolSize">3</property>
@@ -46,12 +44,11 @@
         <property name="maxStatements">200</property>
 
     </named-config>
-    //xiaomistore
     <named-config name="xiaomistore">
         <property name="user">root</property>
         <property name="password">liangzi.</property>
-        <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl">jdbc:mysql://localhost:3306/xiaomistore?characterEncoding=utf8</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/xiaomistore?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC&amp;rewriteBatchedStatements=true</property>
         <property name="checkoutTimeout">30000</property>
         <property name="idleConnectionTestPeriod">30</property>
         <property name="initialPoolSize">3</property>

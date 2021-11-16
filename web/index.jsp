@@ -7,7 +7,6 @@
         <meta name="author" content="order by dede58.com"/>
 		<title>小米商城</title>
 		<link rel="stylesheet" type="text/css" href="resource/css/style.css">
-
 	</head>
 	<body>
 	<!-- start header -->

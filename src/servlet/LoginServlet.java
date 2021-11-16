@@ -2,17 +2,13 @@ package servlet;
 
 import dao.Impl.UserdaoImpl;
 import entity.User;
-import net.sf.json.JSON;
 import net.sf.json.JSONObject;
-import netscape.javascript.JSObject;
 
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
@@ -36,7 +32,7 @@ public class LoginServlet extends HttpServlet {
         String paramCode = request.getParameter("verifyCode").trim();
         //创建实例
         UserdaoImpl userimpl = new UserdaoImpl();
-        User user = new User();
+        User user;
         Map<String,Object> map = new HashMap<>();
         PrintWriter out = response.getWriter();
         //登录
