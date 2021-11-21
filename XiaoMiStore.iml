@@ -19,7 +19,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 9.0.22" level="application_server_libraries" />
-    <orderEntry type="library" exported="" name="lib (3)" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 9.0.54" level="application_server_libraries" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
   </component>
 </module>
