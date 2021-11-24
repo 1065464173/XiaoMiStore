@@ -1,9 +1,16 @@
 # XiaoMiStore
 
 ## 简介
+
 基于MVC模型并使用JSP对小米商城进行简单的临摹。实现商城的登录注册功能，购物车和订单中心还在开发中。
 
+* 登录 验证码校验
+* MD5加密存储
+* 注册
+* 修改信息
+
 ## 技术栈介绍
+
 * 开发模型：MVC
 * 开发语言：JDK8+HTML+CSS
 * 数据库： MySQL 8.x
@@ -13,35 +20,36 @@
 * 部署：Tomcat9
 
 ## 项目文档
-**｜— src 						Model&Contrller层**
 
-​    ｜— entity				数据持久层 JavaBean
+**｜— src Model&Contrller层**
 
-​    ｜— dao				   数据访问层
+​ -----｜— entity 数据持久层 JavaBean
 
-​    ｜— service			 业务层
+​ -----｜— dao 数据访问层
 
-​    ｜— servlet			  控制层
+​ -----｜— service 业务层
 
-​    ｜— util					 工具包
+​ -----｜— servlet 控制层
 
-**｜— web						View层**
+​ -----｜— util 工具包
 
-​    ｜— error				 自定义错误业
+**｜— web View层**
 
-​    ｜— resource		  静态资源包
+​ -----｜— error 自定义错误业
 
-​	   	 ｜— css
+​ -----｜— resource 静态资源包
 
-​	   	 ｜— image
+​ -----｜— css
 
-​	   	 ｜— jquery
+​ -----｜— image
 
-​	   	 ｜— sql
+​ -----｜— jquery
 
-​    ｜— WEB-INF	   WEB应用的安全目录
+​ -----｜— sql
 
-​    		｜— lib			依赖资源
+​ -----｜— WEB-INF WEB应用的安全目录
+
+​ ----------｜— lib 依赖资源
 
 ## 项目启动
 
